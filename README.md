@@ -50,6 +50,8 @@ blastn \
 Each consensus sequence is queried independently.
 
 ## Running the Workflow
+Make sure you have the latest amplicon_sorter.py script from [amplicon_sorter](https://github.com/avierstr/amplicon_sorter). This should be in the same directory as `amp_sorterflow.sh` `metadata.csv` & `blast_consensus.sh`.
+
 Step 1 – Concatenate reads and generate consensus
 ```
 ./amp_sorterflow.sh metadata.csv fastq_pass/
